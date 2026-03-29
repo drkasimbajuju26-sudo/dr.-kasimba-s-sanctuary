@@ -16,7 +16,7 @@ const services = [
   },
   {
     icon: Briefcase,
-    imagePath: "/services/Business-Financial-Growth-Guidance.jpg",
+    imagePath: "/services/Spiritual-Cleansing-Rituals-For-You-Your-Home.jpg",
     title: "Business Ritual",
     description: "Let us help you unlock your business potential and achieve lasting success. Powerful rituals designed to attract customers, close deals, and remove obstacles blocking your path to wealth.",
   },
