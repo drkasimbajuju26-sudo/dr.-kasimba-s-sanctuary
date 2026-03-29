@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Dr Kasimba Juju
 
-TODO: Document your project here
+A witchdoctor website
