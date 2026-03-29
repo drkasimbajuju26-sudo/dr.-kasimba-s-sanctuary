@@ -23,7 +23,7 @@ const ContactSection = () => {
         >
           <div className="grid gap-6">
             <a
-              href="tel:0748826597"
+              href="tel:254748826597"
               className="flex items-center gap-4 bg-card border border-border rounded-sm p-6 hover:border-primary/50 transition-colors group"
             >
               <div className="w-14 h-14 bg-primary/10 border border-primary/30 rounded-full flex items-center justify-center group-hover:animate-pulse-glow">
@@ -31,7 +31,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-display text-sm text-muted-foreground uppercase tracking-wider">Call Directly</p>
-                <p className="font-display text-xl text-foreground">0748 826 597</p>
+                <p className="font-display text-xl text-foreground">+254 748 826 597</p>
               </div>
             </a>
 
@@ -46,7 +46,7 @@ const ContactSection = () => {
               </div>
               <div>
                 <p className="font-display text-sm text-muted-foreground uppercase tracking-wider">WhatsApp / Text</p>
-                <p className="font-display text-xl text-foreground">0748 826 597</p>
+                <p className="font-display text-xl text-foreground">+254 748 826 597</p>
               </div>
             </a>
 
