@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -45,8 +45,8 @@
     --sidebar-border: 25 30% 18%;
     --sidebar-ring: 25 83% 37%;
 
-    --font-display: 'Cinzel', serif;
-    --font-body: 'Crimson Text', serif;
+    --font-display: "Cinzel", serif;
+    --font-body: "Crimson Text", serif;
 
     --glow-primary: 0 0 40px hsl(25 83% 37% / 0.3);
     --glow-strong: 0 0 80px hsl(25 83% 37% / 0.5);
@@ -63,26 +63,43 @@
     font-family: var(--font-body);
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: var(--font-display);
   }
 }
 
 @layer utilities {
   .text-glow {
-    text-shadow: 0 0 20px hsl(25 83% 37% / 0.6), 0 0 40px hsl(25 83% 37% / 0.3);
+    text-shadow:
+      0 0 20px hsl(25 83% 37% / 0.6),
+      0 0 40px hsl(25 83% 37% / 0.3);
   }
 
   .border-glow {
-    box-shadow: 0 0 15px hsl(25 83% 37% / 0.2), inset 0 0 15px hsl(25 83% 37% / 0.05);
+    box-shadow:
+      0 0 15px hsl(25 83% 37% / 0.2),
+      inset 0 0 15px hsl(25 83% 37% / 0.05);
   }
 
   .bg-smoke {
-    background: radial-gradient(ellipse at center, hsl(0 0% 10% / 0.8) 0%, hsl(0 0% 5%) 70%);
+    background: radial-gradient(
+      ellipse at center,
+      hsl(0 0% 10% / 0.8) 0%,
+      hsl(0 0% 5%) 70%
+    );
   }
 
   .section-overlay {
-    background: linear-gradient(180deg, hsl(0 0% 5% / 0.95) 0%, hsl(0 0% 3% / 0.98) 100%);
+    background: linear-gradient(
+      180deg,
+      hsl(0 0% 5% / 0.95) 0%,
+      hsl(0 0% 3% / 0.98) 100%
+    );
   }
 }
 
@@ -100,20 +117,39 @@
 
 /* Flickering candle animation */
 @keyframes flicker {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.8; }
-  25% { opacity: 0.9; }
-  75% { opacity: 0.85; }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 0.9;
+  }
+  75% {
+    opacity: 0.85;
+  }
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px hsl(25 83% 37% / 0.4); }
-  50% { box-shadow: 0 0 40px hsl(25 83% 37% / 0.7); }
+  0%,
+  100% {
+    box-shadow: 0 0 20px hsl(25 83% 37% / 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px hsl(25 83% 37% / 0.7);
+  }
 }
 
 .animate-flicker {

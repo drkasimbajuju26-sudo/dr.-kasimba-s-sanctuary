@@ -16,7 +16,10 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <a href="#home" className="font-display text-xl font-bold text-primary text-glow">
+        <a
+          href="#home"
+          className="font-display text-xl font-bold text-primary text-glow"
+        >
           Dr. Kasimba Juju
         </a>
 
@@ -35,7 +38,10 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile toggle */}
-        <button className="md:hidden text-foreground" onClick={() => setOpen(!open)}>
+        <button
+          className="md:hidden text-foreground"
+          onClick={() => setOpen(!open)}
+        >
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
