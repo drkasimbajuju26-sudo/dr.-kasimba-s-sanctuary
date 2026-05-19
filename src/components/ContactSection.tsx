@@ -27,7 +27,7 @@ const ContactSection = () => {
         >
           <div className="grid gap-6">
             <a
-              href="tel:254798905200"
+              href="tel:+254793958567"
               className="flex items-center gap-4 bg-card border border-border rounded-sm p-6 hover:border-primary/50 transition-colors group"
             >
               <div className="w-14 h-14 bg-primary/10 border border-primary/30 rounded-full flex items-center justify-center group-hover:animate-pulse-glow">
@@ -38,13 +38,13 @@ const ContactSection = () => {
                   Call Directly
                 </p>
                 <p className="font-display text-xl text-foreground">
-                  +254 798 905 200
+                  +254 793 958 567
                 </p>
               </div>
             </a>
 
             <a
-              href="https://wa.me/254798905200"
+              href="https://wa.me/254793958567"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 bg-card border border-border rounded-sm p-6 hover:border-primary/50 transition-colors group"
@@ -57,7 +57,7 @@ const ContactSection = () => {
                   WhatsApp / Text
                 </p>
                 <p className="font-display text-xl text-foreground">
-                  +254 798 905 200
+                  +254 793 958 567
                 </p>
               </div>
             </a>

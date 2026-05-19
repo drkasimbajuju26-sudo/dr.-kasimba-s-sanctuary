@@ -5,7 +5,7 @@ const FloatingActions = () => {
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
       <motion.a
-        href="https://wa.me/254798905200"
+        href="https://wa.me/254793958567"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ scale: 0 }}
@@ -18,7 +18,7 @@ const FloatingActions = () => {
         <MessageCircle className="w-6 h-6 text-foreground" />
       </motion.a>
       <motion.a
-        href="tel:0798905200"
+        href="tel:0793958567"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 1.8 }}

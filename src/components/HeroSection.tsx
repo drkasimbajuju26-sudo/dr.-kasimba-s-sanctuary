@@ -44,7 +44,7 @@ const HeroSection = () => {
             Explore Services
           </a>
           <a
-            href="tel:0798905200"
+            href="tel:0793958567"
             className="inline-block px-8 py-4 border border-primary text-primary font-display text-sm tracking-widest uppercase rounded-sm hover:bg-primary/10 transition-all"
           >
             Call Now
